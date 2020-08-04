@@ -1,0 +1,2 @@
+# Chinese-Farmer
+Progressive enhancement
