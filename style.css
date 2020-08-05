@@ -24,3 +24,6 @@ a:visited {
 a:hover {
     text-decoration: 2px rgb(3, 138, 71) underline;
 }
+blockquote {
+    background-color: rgb(3, 138, 71);
+}
