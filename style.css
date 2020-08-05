@@ -10,7 +10,7 @@ p {
     font-size: 1.2em;
     color: rgb(47, 47, 47);
 }
-a {
+a:link {
     text-decoration: none;
     font-size: 1.1rem;
     border-radius: 3px;
@@ -67,6 +67,8 @@ tr:nth-child(odd) {
 img {
     float: right;
     margin-left: 10px;
+    width: 70%;
+    height: auto;
 }
 section::after {
     content: "";
