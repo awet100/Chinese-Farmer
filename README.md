@@ -1,2 +1,1 @@
-# Chinese-Farmer
-Progressive enhancement
+https://awet100.github.io/Chinese-Farmer/
