@@ -1,7 +1,7 @@
 body {
     width: 90%;
     margin: auto;
-    background-color: #67e9dd;
+    background-color: #b3e9e3;
 }
 p {
     font-family: sans-serif;
@@ -9,11 +9,14 @@ p {
     line-height: 1.5em;
     color: rgb(83, 82, 82);
 }
+header p:first-of-type {
+    font-weight: bold;
+}
 a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1em;
-    color: rgb(244, 241, 247);
+    color: rgb(28, 45, 124);
     font-family: sans-serif;
     border: 1px solid transparent;
     padding: .2em .5em;
@@ -38,8 +41,30 @@ q{
     border-radius: 5px;
 }
 .neighbors {
-    border-left: 3px dashed rgb(107, 34, 34);
+    border-left: 3px dashed rgb(228, 7, 7);
 }
 .farmer {
-    border-left: 3px dashed rgb(7, 148, 153);
+    border-left: 3px dashed rgb(25, 10, 240);
+}
+header p:first-child {
+    background-color: yellow;
+}
+em[value = "bad"] {
+    color: red;
+}
+em[value = "good"] {
+    color: green;
+}
+tr:nth-child(even) {
+   background-color: green;
+   color: white;
+   text-align: left;
+}
+tr:nth-child(odd) {
+    background-color: white;
+    color: gray;
+    text-align: left;
+}
+th, td {
+    padding: 5px 10px;
 }
