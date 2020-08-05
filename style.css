@@ -14,15 +14,15 @@ a {
     text-decoration: none;
     font-size: 1.1rem;
     border-radius: 3px;
+    color: white;
     padding: 1px 5px;
-    background-color: rgb(51, 61, 151);
+    background-color: rgb(51, 151, 96);
 }
 a:visited {
     color: rgb(112, 112, 112);
-    background-color: rgb(10, 236, 236);
 }
 a:hover {
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: rgba(51, 151, 151, 0.925);
 }
 q {
