@@ -1,70 +1,75 @@
 body {
     width: 90%;
     margin: auto;
-    background-color: #b3e9e3;
+    background: #f8fafa;
+    font-family: 'Open Sans', sans-serif;
 }
 p {
-    font-family: sans-serif;
-    word-spacing: 2px;
-    line-height: 1.5em;
-    color: rgb(83, 82, 82);
+    font-family: serif;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    color: rgb(47, 47, 47);
 }
-header p:first-of-type {
-    font-weight: bold;
-}
-a {
+a:link {
     text-decoration: none;
-    text-transform: capitalize;
-    font-size: 1em;
-    color: rgb(28, 45, 124);
-    font-family: sans-serif;
-    border: 1px solid transparent;
-    padding: .2em .5em;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    padding: 1px 5px;
+    background-color: rgb(51, 61, 151);
 }
 a:visited {
-    text-decoration: 2px red underline;
+    color: rgb(112, 112, 112);
+    background-color: rgb(10, 236, 236);
 }
 a:hover {
-    text-decoration: 2px rgb(3, 138, 71) underline;
+    color: rgb(255, 255, 255);
+    background-color: rgba(51, 151, 151, 0.925);
 }
-q{
-    width: 50%;
-    font-size: 160%;
-    border-left-style: dashed;
+q {
     display: block;
+    width: 50%;
     margin: 80px auto;
+    font-size: 160%;
+    background-color: rgb(180, 180, 180);
+    padding: 30px;
     font-style: italic;
-    align-self: center;
-    padding: 5px 30px;
-    background-color: rgb(226, 222, 222);
-    border-left: 3px rgb(14, 12, 12);
-    border-radius: 5px;
 }
-.neighbors {
-    border-left: 3px dashed rgb(228, 7, 7);
+.villagers {
+    border-left: 3px dashed red;
 }
 .farmer {
-    border-left: 3px dashed rgb(25, 10, 240);
+    border-left: 3px dashed rgb(0, 255, 55);
 }
-header p:first-child {
+header h1 {
     background-color: yellow;
 }
-em[value = "bad"] {
+p > q {
+    font-style: italic;
+}
+.good, .bad {
+    text-transform: capitalize;
+}
+.bad {
     color: red;
 }
-em[value = "good"] {
+.good {
     color: green;
 }
 tr:nth-child(even) {
-   background-color: green;
-   color: white;
-   text-align: left;
+    background-color: rgb(180, 180, 180);
 }
 tr:nth-child(odd) {
-    background-color: white;
-    color: gray;
-    text-align: left;
+    background-color: rgb(143, 183, 209);
 }
-th, td {
-    padding: 5px 10px;
+#first-p {
+    font-weight: bold;
+}
+img {
+    float: right;
+    margin-left: 10px;
+}
+section::after {
+    content: "";
+    clear: both;
+    display: table;
 }
