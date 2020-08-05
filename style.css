@@ -1,0 +1,26 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+p {
+    font-family: sans-serif;
+    word-spacing: 2px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: rgb(83, 82, 82);
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1em;
+    color: rgb(58, 5, 107);
+    font-family: sans-serif;
+    border: 1px solid transparent;
+    padding: .2em .5em;
+}
+a:visited {
+    text-decoration: 2px red underline;
+}
+a:hover {
+    text-decoration: 2px rgb(3, 138, 71) underline;
+}
