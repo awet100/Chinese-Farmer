@@ -1,6 +1,7 @@
 body {
     width: 90%;
     margin: auto;
+    background-color: #67e9dd;
 }
 p {
     font-family: sans-serif;
@@ -12,7 +13,7 @@ a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1em;
-    color: rgb(58, 5, 107);
+    color: rgb(244, 241, 247);
     font-family: sans-serif;
     border: 1px solid transparent;
     padding: .2em .5em;
@@ -31,7 +32,14 @@ q{
     margin: 80px auto;
     font-style: italic;
     align-self: center;
-    padding-left: 30px;
+    padding: 5px 30px;
     background-color: rgb(226, 222, 222);
     border-left: 3px rgb(14, 12, 12);
+    border-radius: 5px;
+}
+.neighbors {
+    border-left: 3px dashed rgb(107, 34, 34);
+}
+.farmer {
+    border-left: 3px dashed rgb(7, 148, 153);
 }
