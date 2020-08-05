@@ -64,6 +64,9 @@ tr:nth-child(odd) {
 #first-p {
     font-weight: bold;
 }
+section {
+    width: 100%;
+}
 img {
     float: right;
     margin-left: 10px;
