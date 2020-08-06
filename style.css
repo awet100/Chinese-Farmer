@@ -19,7 +19,7 @@ a:link {
     background-color: rgb(51, 151, 96);
 }
 a:visited {
-    color: rgb(182, 12, 12);
+    text-decoration:red underline;
 }
 a:hover {
     color: white;
